@@ -28,3 +28,5 @@
 16:06:55.503 [main] INFO  bikesMain.DisplayNewBikes - Entering Email
 16:06:56.401 [main] INFO  bikesMain.DisplayNewBikes - Clicking Next
 16:06:56.906 [main] INFO  bikesMain.DisplayNewBikes - Error Msg Captured
+10:29:19.193 [main] INFO  stepDefination.Newbikes - Website opened
+10:29:19.699 [main] INFO  stepDefination.Newbikes - click on usedCars 

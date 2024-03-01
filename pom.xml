@@ -12,19 +12,23 @@
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-compiler-plugin</artifactId>
-<version>3.12.1</version>
+<version>3.11.0</version>
 </plugin>
+ 
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-surefire-plugin</artifactId>
-<version>3.2.5</version>
+<version>3.2.2</version>
 <configuration>
-<parallel>methods</parallel>
-<!--<useUnlimitedThreads>true</useUnlimitedThreads> -->
-<threadCount>2</threadCount>
+<suiteXmlFiles>
+<suiteXmlFile>testng.xml</suiteXmlFile>
+<!-- <suiteXmlFile>xyz.xml</suiteXmlFile>-->
+</suiteXmlFiles>
 </configuration>
 </plugin>
+ 
 </plugins>
+ 
 </pluginManagement>
 </build>
   <dependencies>
